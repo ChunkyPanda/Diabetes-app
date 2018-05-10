@@ -1,0 +1,1157 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2917A5A71F38C29B004A5786 /* RestaurantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2917A5A61F38C29B004A5786 /* RestaurantController.swift */; };
+		2917A5A91F38C2D6004A5786 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2917A5A81F38C2D6004A5786 /* RestaurantTableViewController.swift */; };
+		2917A5AB1F38C3EB004A5786 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2917A5AA1F38C3EB004A5786 /* Restaurant.swift */; };
+		294CA0401F1FED6700D5857A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294CA03F1F1FED6700D5857A /* AppDelegate.swift */; };
+		294CA0421F1FED6700D5857A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294CA0411F1FED6700D5857A /* ViewController.swift */; };
+		294CA0471F1FED6700D5857A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294CA0461F1FED6700D5857A /* Assets.xcassets */; };
+		294CA04A1F1FED6700D5857A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294CA0481F1FED6700D5857A /* LaunchScreen.storyboard */; };
+		294CA0551F1FED6700D5857A /* DiabetesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294CA0541F1FED6700D5857A /* DiabetesTests.swift */; };
+		294CA0601F1FED6700D5857A /* DiabetesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294CA05F1F1FED6700D5857A /* DiabetesUITests.swift */; };
+		294CA06E1F1FED9200D5857A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294CA06D1F1FED9200D5857A /* Bolts.framework */; };
+		294CA0701F1FEDAA00D5857A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294CA06F1F1FEDAA00D5857A /* Parse.framework */; };
+		295804291F3268FF00623E4E /* FileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295804281F3268FF00623E4E /* FileViewController.swift */; };
+		296DBE811F28F56E00A61898 /* PopSleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296DBE801F28F56E00A61898 /* PopSleepViewController.swift */; };
+		298824641F474A200083ED2F /* CalorieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298824631F474A200083ED2F /* CalorieTableViewController.swift */; };
+		298824661F474A430083ED2F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298824651F474A430083ED2F /* CameraViewController.swift */; };
+		298824681F474D530083ED2F /* AddChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298824671F474D530083ED2F /* AddChoiceViewController.swift */; };
+		2988246A1F474D900083ED2F /* LogDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298824691F474D900083ED2F /* LogDetailTableViewController.swift */; };
+		2988246C1F474D970083ED2F /* LogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2988246B1F474D970083ED2F /* LogTableViewController.swift */; };
+		2988246E1F474DCC0083ED2F /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2988246D1F474DCC0083ED2F /* FoodItem.swift */; };
+		298824701F474DD20083ED2F /* FoodStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2988246F1F474DD20083ED2F /* FoodStorageService.swift */; };
+		29EBD2EF1F2137C20067BC73 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EBD2EE1F2137C20067BC73 /* FirstViewController.swift */; };
+		29EBD2F11F2137FC0067BC73 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EBD2F01F2137FC0067BC73 /* SecondViewController.swift */; };
+		29EBD2F31F2263CF0067BC73 /* GlucoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EBD2F21F2263CF0067BC73 /* GlucoseViewController.swift */; };
+		29EBD9631F30CF5C0010BE14 /* FeelingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EBD9621F30CF5B0010BE14 /* FeelingsViewController.swift */; };
+		29EBD9651F3232540010BE14 /* NearMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EBD9641F3232540010BE14 /* NearMeViewController.swift */; };
+		29EBD9721F324F9E0010BE14 /* MapDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EBD9711F324F9E0010BE14 /* MapDetailViewController.swift */; };
+		29FC20AF1F57397800572F02 /* TextFieldMaxLengths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC20AE1F57397800572F02 /* TextFieldMaxLengths.swift */; };
+		29FC20B11F57398700572F02 /* UIViewController+HideKeyboardStopEditing copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC20B01F57398700572F02 /* UIViewController+HideKeyboardStopEditing copy.swift */; };
+		29FC20B31F5739AE00572F02 /* EnterGlucoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC20B21F5739AE00572F02 /* EnterGlucoseViewController.swift */; };
+		29FC20B51F57490A00572F02 /* AllowedCharsTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC20B41F57490A00572F02 /* AllowedCharsTextField.swift */; };
+		29FC20B71F57491800572F02 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC20B61F57491800572F02 /* TableViewController.swift */; };
+		5B7BB07A68B75CB35B14914E /* Pods_Diabetes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9872386025D62E15F4327612 /* Pods_Diabetes.framework */; };
+		734AEC1159AB4FA8AEE96F8B /* Pods_DiabetesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95AEBC61D4917A970FA5310 /* Pods_DiabetesTests.framework */; };
+		E304CC6A1F2BC326009C8A69 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E304CC691F2BC325009C8A69 /* ActivityViewController.swift */; };
+		E34A098F1F45EF5C00886C50 /* Feelings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34A098E1F45EF5C00886C50 /* Feelings.storyboard */; };
+		E34A09911F45F26F00886C50 /* FeelingsLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A09901F45F26F00886C50 /* FeelingsLogViewController.swift */; };
+		E3667C921F4359E000363F04 /* ActivityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3667C911F4359E000363F04 /* ActivityListViewController.swift */; };
+		E371D2291F9FC4850084DF07 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371D2281F9FC4850084DF07 /* SideMenuViewController.swift */; };
+		E371D22B1F9FC5A20084DF07 /* MarketplaceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371D22A1F9FC5A20084DF07 /* MarketplaceTableViewController.swift */; };
+		E371D22D1F9FC5D70084DF07 /* CommunityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371D22C1F9FC5D60084DF07 /* CommunityTableViewController.swift */; };
+		E391651020113C58009BC161 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E391650F20113C58009BC161 /* GoogleService-Info.plist */; };
+		E391651120113C58009BC161 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E391650F20113C58009BC161 /* GoogleService-Info.plist */; };
+		E391651220113C58009BC161 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E391650F20113C58009BC161 /* GoogleService-Info.plist */; };
+		E39B2D871F3C988C002F2704 /* Pods_Diabetes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E39B2D861F3C988C002F2704 /* Pods_Diabetes.framework */; };
+		E39B2D891F3C989D002F2704 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E39B2D881F3C989D002F2704 /* Alamofire.framework */; };
+		E39B2D8B1F3C98A3002F2704 /* AlamofireRSSParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E39B2D8A1F3C98A3002F2704 /* AlamofireRSSParser.framework */; };
+		E39B82781FCC9A60000CC63F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39B82771FCC9A60000CC63F /* Main.storyboard */; };
+		E39B827C1FCDC500000CC63F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39B827B1FCDC500000CC63F /* ProfileViewController.swift */; };
+		E39B827E1FD5AA3A000CC63F /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39B827D1FD5AA3A000CC63F /* EmailViewController.swift */; };
+		E3C1BD8A1FE3028500189C12 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C1BD891FE3028500189C12 /* EditProfileViewController.swift */; };
+		E3C1BD8C1FE30E2F00189C12 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C1BD8B1FE30E2F00189C12 /* HealthKit.framework */; };
+		E3C1BD911FE820F300189C12 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C1BD8D1FE820F300189C12 /* FoodCell.swift */; };
+		E3C1BD921FE820F300189C12 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C1BD8E1FE820F300189C12 /* FoodModel.swift */; };
+		E3C1BD931FE820F300189C12 /* NutritionSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C1BD8F1FE820F300189C12 /* NutritionSearchViewController.swift */; };
+		E3C1BD941FE820F300189C12 /* referDBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C1BD901FE820F300189C12 /* referDBVC.swift */; };
+		E3DCFD241FE024470007CD80 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DCFD231FE024470007CD80 /* iCarousel.m */; };
+		E3DCFD261FE025030007CD80 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3DCFD251FE025030007CD80 /* QuartzCore.framework */; };
+		E3DCFD281FE025C60007CD80 /* CarouselTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DCFD271FE025C60007CD80 /* CarouselTestViewController.swift */; };
+		E3EDEA761F28F53F0097FAC7 /* NutritionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EDEA751F28F53F0097FAC7 /* NutritionViewController.swift */; };
+		E3EDEA7A1F2900900097FAC7 /* SleepPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EDEA791F2900900097FAC7 /* SleepPageViewController.swift */; };
+		E3F05CDB1F3B750400B9171D /* InsightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F05CDA1F3B750400B9171D /* InsightsViewController.swift */; };
+		E3F373001F3900C4006ADD42 /* NutritionDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F372FF1F3900C4006ADD42 /* NutritionDisplayViewController.swift */; };
+		E3F373021F39F5AA006ADD42 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F373011F39F5AA006ADD42 /* Onboarding.storyboard */; };
+		E3F373051F3A0CBA006ADD42 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F373041F3A0CBA006ADD42 /* OnboardingViewController.swift */; };
+		E3F373071F3A1AB4006ADD42 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F373061F3A1AB4006ADD42 /* UserViewController.swift */; };
+		E3FEBE0D1F3E170C006DDBCD /* AlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FEBE0C1F3E170C006DDBCD /* AlertsViewController.swift */; };
+		E3FF7A641F8E6D180047D86D /* OpenType in Resources */ = {isa = PBXBuildFile; fileRef = E3FF7A631F8E6D180047D86D /* OpenType */; };
+		E3FF7A711F8E727B0047D86D /* Whitney-Black-Adv.otf in Resources */ = {isa = PBXBuildFile; fileRef = E3FF7A651F8E727B0047D86D /* Whitney-Black-Adv.otf */; };
+		E3FF7A721F8E727B0047D86D /* Whitney-BlackItal-Adv.otf in Resources */ = {isa = PBXBuildFile; fileRef = E3FF7A661F8E727B0047D86D /* Whitney-BlackItal-Adv.otf */; };
+		E3FF7A731F8E727B0047D86D /* Whitney-Bold-Adv.otf in Resources */ = {isa = PBXBuildFile; fileRef = E3FF7A671F8E727B0047D86D /* Whitney-Bold-Adv.otf */; };
+		E3FF7A741F8E727B0047D86D /* Whitney-BoldItal-Adv.otf in Resources */ = {isa = PBXBuildFile; fileRef = E3FF7A681F8E727B0047D86D /* Whitney-BoldItal-Adv.otf */; };
+		E3FF7A751F8E727B0047D86D /* Whitney-Book-Adv.otf in Resources */ = {isa = PBXBuildFile; fileRef = E3FF7A691F8E727B0047D86D /* Whitney-Book-Adv.otf */; };
+		E3FF7A761F8E727B0047D86D /* Whitney-BookItal-Adv.otf in Resources */ = {isa = PBXBuildFile; fileRef = E3FF7A6A1F8E727B0047D86D /* Whitney-BookItal-Adv.otf */; };
+		E3FF7A771F8E727B0047D86D /* Whitney-Light-Adv.otf in Resources */ = {isa = PBXBuildFile; fileRef = E3FF7A6B1F8E727B0047D86D /* Whitney-Light-Adv.otf */; };
+		E3FF7A781F8E727B0047D86D /* Whitney-LightItal-Adv.otf in Resources */ = {isa = PBXBuildFile; fileRef = E3FF7A6C1F8E727B0047D86D /* Whitney-LightItal-Adv.otf */; };
+		E3FF7A791F8E727B0047D86D /* Whitney-Medium-Adv.otf in Resources */ = {isa = PBXBuildFile; fileRef = E3FF7A6D1F8E727B0047D86D /* Whitney-Medium-Adv.otf */; };
+		E3FF7A7A1F8E727B0047D86D /* Whitney-MediumItal-Adv.otf in Resources */ = {isa = PBXBuildFile; fileRef = E3FF7A6E1F8E727B0047D86D /* Whitney-MediumItal-Adv.otf */; };
+		E3FF7A7B1F8E727B0047D86D /* Whitney-Semibld-Adv.otf in Resources */ = {isa = PBXBuildFile; fileRef = E3FF7A6F1F8E727B0047D86D /* Whitney-Semibld-Adv.otf */; };
+		E3FF7A7C1F8E727B0047D86D /* Whitney-SemibldItal-Adv.otf in Resources */ = {isa = PBXBuildFile; fileRef = E3FF7A701F8E727B0047D86D /* Whitney-SemibldItal-Adv.otf */; };
+		F3621A1EFEB667744BA4A470 /* Pods_DiabetesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15188A38AD67DF61464CD460 /* Pods_DiabetesUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		294CA0511F1FED6700D5857A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 294CA0341F1FED6700D5857A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 294CA03B1F1FED6700D5857A;
+			remoteInfo = Diabetes;
+		};
+		294CA05C1F1FED6700D5857A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 294CA0341F1FED6700D5857A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 294CA03B1F1FED6700D5857A;
+			remoteInfo = Diabetes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047BF6D1C14E3AC995279683 /* Pods-DiabetesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiabetesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiabetesUITests/Pods-DiabetesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		15188A38AD67DF61464CD460 /* Pods_DiabetesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiabetesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD683297D73CC3581A8BC6D /* Pods-DiabetesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiabetesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiabetesTests/Pods-DiabetesTests.release.xcconfig"; sourceTree = "<group>"; };
+		2917A5A61F38C29B004A5786 /* RestaurantController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantController.swift; sourceTree = "<group>"; };
+		2917A5A81F38C2D6004A5786 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		2917A5AA1F38C3EB004A5786 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		294CA03C1F1FED6700D5857A /* Diabetes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diabetes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		294CA03F1F1FED6700D5857A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		294CA0411F1FED6700D5857A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		294CA0461F1FED6700D5857A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		294CA0491F1FED6700D5857A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		294CA04B1F1FED6700D5857A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		294CA0501F1FED6700D5857A /* DiabetesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiabetesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		294CA0541F1FED6700D5857A /* DiabetesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabetesTests.swift; sourceTree = "<group>"; };
+		294CA0561F1FED6700D5857A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		294CA05B1F1FED6700D5857A /* DiabetesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiabetesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		294CA05F1F1FED6700D5857A /* DiabetesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabetesUITests.swift; sourceTree = "<group>"; };
+		294CA0611F1FED6700D5857A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		294CA06D1F1FED9200D5857A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../back4app-email-swift-master/Bolts.framework"; sourceTree = "<group>"; };
+		294CA06F1F1FEDAA00D5857A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../back4app-email-swift-master/Parse.framework"; sourceTree = "<group>"; };
+		294CA0BD1F2131FC00D5857A /* Diabetes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Diabetes.entitlements; sourceTree = "<group>"; };
+		295804281F3268FF00623E4E /* FileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileViewController.swift; sourceTree = "<group>"; };
+		296DBE801F28F56E00A61898 /* PopSleepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopSleepViewController.swift; sourceTree = "<group>"; };
+		298824631F474A200083ED2F /* CalorieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalorieTableViewController.swift; sourceTree = "<group>"; };
+		298824651F474A430083ED2F /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		298824671F474D530083ED2F /* AddChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddChoiceViewController.swift; sourceTree = "<group>"; };
+		298824691F474D900083ED2F /* LogDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogDetailTableViewController.swift; sourceTree = "<group>"; };
+		2988246B1F474D970083ED2F /* LogTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogTableViewController.swift; sourceTree = "<group>"; };
+		2988246D1F474DCC0083ED2F /* FoodItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		2988246F1F474DD20083ED2F /* FoodStorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodStorageService.swift; sourceTree = "<group>"; };
+		29EBD2EE1F2137C20067BC73 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		29EBD2F01F2137FC0067BC73 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		29EBD2F21F2263CF0067BC73 /* GlucoseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlucoseViewController.swift; sourceTree = "<group>"; };
+		29EBD9621F30CF5B0010BE14 /* FeelingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeelingsViewController.swift; sourceTree = "<group>"; };
+		29EBD9641F3232540010BE14 /* NearMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearMeViewController.swift; sourceTree = "<group>"; };
+		29EBD9711F324F9E0010BE14 /* MapDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDetailViewController.swift; sourceTree = "<group>"; };
+		29FC20AE1F57397800572F02 /* TextFieldMaxLengths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldMaxLengths.swift; sourceTree = "<group>"; };
+		29FC20B01F57398700572F02 /* UIViewController+HideKeyboardStopEditing copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+HideKeyboardStopEditing copy.swift"; sourceTree = "<group>"; };
+		29FC20B21F5739AE00572F02 /* EnterGlucoseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterGlucoseViewController.swift; sourceTree = "<group>"; };
+		29FC20B41F57490A00572F02 /* AllowedCharsTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllowedCharsTextField.swift; sourceTree = "<group>"; };
+		29FC20B61F57491800572F02 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		347A1EA3620FE22C3D53A4AE /* Pods-Diabetes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diabetes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Diabetes/Pods-Diabetes.debug.xcconfig"; sourceTree = "<group>"; };
+		43B031502FA83304673E9020 /* Pods-DiabetesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiabetesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiabetesUITests/Pods-DiabetesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7940CE572FDA8097EB368D4A /* Pods-DiabetesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiabetesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiabetesTests/Pods-DiabetesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		92307AB6E5C034B494A83C45 /* Pods-Diabetes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diabetes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diabetes/Pods-Diabetes.release.xcconfig"; sourceTree = "<group>"; };
+		9872386025D62E15F4327612 /* Pods_Diabetes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diabetes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95AEBC61D4917A970FA5310 /* Pods_DiabetesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiabetesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E304CC691F2BC325009C8A69 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		E34A098E1F45EF5C00886C50 /* Feelings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Feelings.storyboard; sourceTree = "<group>"; };
+		E34A09901F45F26F00886C50 /* FeelingsLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeelingsLogViewController.swift; sourceTree = "<group>"; };
+		E3667C911F4359E000363F04 /* ActivityListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityListViewController.swift; sourceTree = "<group>"; };
+		E371D2281F9FC4850084DF07 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		E371D22A1F9FC5A20084DF07 /* MarketplaceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketplaceTableViewController.swift; sourceTree = "<group>"; };
+		E371D22C1F9FC5D60084DF07 /* CommunityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityTableViewController.swift; sourceTree = "<group>"; };
+		E391650F20113C58009BC161 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E39B2D861F3C988C002F2704 /* Pods_Diabetes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Diabetes.framework; path = "../../Library/Developer/Xcode/DerivedData/Diabetes-cbwwdwqowdzjecgurerndqdsiomo/Build/Products/Debug-iphonesimulator/Pods_Diabetes.framework"; sourceTree = "<group>"; };
+		E39B2D881F3C989D002F2704 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		E39B2D8A1F3C98A3002F2704 /* AlamofireRSSParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireRSSParser.framework; path = "Pods/../build/Debug-iphoneos/AlamofireRSSParser/AlamofireRSSParser.framework"; sourceTree = "<group>"; };
+		E39B82771FCC9A60000CC63F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E39B827B1FCDC500000CC63F /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E39B827D1FD5AA3A000CC63F /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		E3C1BD891FE3028500189C12 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		E3C1BD8B1FE30E2F00189C12 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		E3C1BD8D1FE820F300189C12 /* FoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		E3C1BD8E1FE820F300189C12 /* FoodModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
+		E3C1BD8F1FE820F300189C12 /* NutritionSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutritionSearchViewController.swift; sourceTree = "<group>"; };
+		E3C1BD901FE820F300189C12 /* referDBVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = referDBVC.swift; sourceTree = "<group>"; };
+		E3DCFD211FE024460007CD80 /* Diabetes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Diabetes-Bridging-Header.h"; sourceTree = "<group>"; };
+		E3DCFD221FE024470007CD80 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		E3DCFD231FE024470007CD80 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		E3DCFD251FE025030007CD80 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E3DCFD271FE025C60007CD80 /* CarouselTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselTestViewController.swift; sourceTree = "<group>"; };
+		E3EDEA751F28F53F0097FAC7 /* NutritionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutritionViewController.swift; sourceTree = "<group>"; };
+		E3EDEA791F2900900097FAC7 /* SleepPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepPageViewController.swift; sourceTree = "<group>"; };
+		E3F05CDA1F3B750400B9171D /* InsightsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsightsViewController.swift; path = Diabetes/InsightsViewController.swift; sourceTree = "<group>"; };
+		E3F372FF1F3900C4006ADD42 /* NutritionDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutritionDisplayViewController.swift; sourceTree = "<group>"; };
+		E3F373011F39F5AA006ADD42 /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		E3F373041F3A0CBA006ADD42 /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		E3F373061F3A1AB4006ADD42 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		E3FEBE0C1F3E170C006DDBCD /* AlertsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertsViewController.swift; sourceTree = "<group>"; };
+		E3FF7A631F8E6D180047D86D /* OpenType */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OpenType; sourceTree = SOURCE_ROOT; };
+		E3FF7A651F8E727B0047D86D /* Whitney-Black-Adv.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Whitney-Black-Adv.otf"; path = "OpenType/Whitney-Black-Adv.otf"; sourceTree = "<group>"; };
+		E3FF7A661F8E727B0047D86D /* Whitney-BlackItal-Adv.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Whitney-BlackItal-Adv.otf"; path = "OpenType/Whitney-BlackItal-Adv.otf"; sourceTree = "<group>"; };
+		E3FF7A671F8E727B0047D86D /* Whitney-Bold-Adv.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Whitney-Bold-Adv.otf"; path = "OpenType/Whitney-Bold-Adv.otf"; sourceTree = "<group>"; };
+		E3FF7A681F8E727B0047D86D /* Whitney-BoldItal-Adv.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Whitney-BoldItal-Adv.otf"; path = "OpenType/Whitney-BoldItal-Adv.otf"; sourceTree = "<group>"; };
+		E3FF7A691F8E727B0047D86D /* Whitney-Book-Adv.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Whitney-Book-Adv.otf"; path = "OpenType/Whitney-Book-Adv.otf"; sourceTree = "<group>"; };
+		E3FF7A6A1F8E727B0047D86D /* Whitney-BookItal-Adv.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Whitney-BookItal-Adv.otf"; path = "OpenType/Whitney-BookItal-Adv.otf"; sourceTree = "<group>"; };
+		E3FF7A6B1F8E727B0047D86D /* Whitney-Light-Adv.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Whitney-Light-Adv.otf"; path = "OpenType/Whitney-Light-Adv.otf"; sourceTree = "<group>"; };
+		E3FF7A6C1F8E727B0047D86D /* Whitney-LightItal-Adv.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Whitney-LightItal-Adv.otf"; path = "OpenType/Whitney-LightItal-Adv.otf"; sourceTree = "<group>"; };
+		E3FF7A6D1F8E727B0047D86D /* Whitney-Medium-Adv.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Whitney-Medium-Adv.otf"; path = "OpenType/Whitney-Medium-Adv.otf"; sourceTree = "<group>"; };
+		E3FF7A6E1F8E727B0047D86D /* Whitney-MediumItal-Adv.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Whitney-MediumItal-Adv.otf"; path = "OpenType/Whitney-MediumItal-Adv.otf"; sourceTree = "<group>"; };
+		E3FF7A6F1F8E727B0047D86D /* Whitney-Semibld-Adv.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Whitney-Semibld-Adv.otf"; path = "OpenType/Whitney-Semibld-Adv.otf"; sourceTree = "<group>"; };
+		E3FF7A701F8E727B0047D86D /* Whitney-SemibldItal-Adv.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Whitney-SemibldItal-Adv.otf"; path = "OpenType/Whitney-SemibldItal-Adv.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		294CA0391F1FED6700D5857A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DCFD261FE025030007CD80 /* QuartzCore.framework in Frameworks */,
+				E39B2D8B1F3C98A3002F2704 /* AlamofireRSSParser.framework in Frameworks */,
+				E39B2D891F3C989D002F2704 /* Alamofire.framework in Frameworks */,
+				E39B2D871F3C988C002F2704 /* Pods_Diabetes.framework in Frameworks */,
+				294CA0701F1FEDAA00D5857A /* Parse.framework in Frameworks */,
+				E3C1BD8C1FE30E2F00189C12 /* HealthKit.framework in Frameworks */,
+				294CA06E1F1FED9200D5857A /* Bolts.framework in Frameworks */,
+				5B7BB07A68B75CB35B14914E /* Pods_Diabetes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294CA04D1F1FED6700D5857A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734AEC1159AB4FA8AEE96F8B /* Pods_DiabetesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294CA0581F1FED6700D5857A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3621A1EFEB667744BA4A470 /* Pods_DiabetesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		294CA0331F1FED6700D5857A = {
+			isa = PBXGroup;
+			children = (
+				E3FF7A7D1F8E728D0047D86D /* Whitney */,
+				294CA06F1F1FEDAA00D5857A /* Parse.framework */,
+				294CA06D1F1FED9200D5857A /* Bolts.framework */,
+				294CA03E1F1FED6700D5857A /* Diabetes */,
+				294CA0531F1FED6700D5857A /* DiabetesTests */,
+				294CA05E1F1FED6700D5857A /* DiabetesUITests */,
+				294CA03D1F1FED6700D5857A /* Products */,
+				BBE0576732B123F2C2BED97F /* Pods */,
+				294CA0BA1F2131FC00D5857A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		294CA03D1F1FED6700D5857A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				294CA03C1F1FED6700D5857A /* Diabetes.app */,
+				294CA0501F1FED6700D5857A /* DiabetesTests.xctest */,
+				294CA05B1F1FED6700D5857A /* DiabetesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		294CA03E1F1FED6700D5857A /* Diabetes */ = {
+			isa = PBXGroup;
+			children = (
+				E3FF7A631F8E6D180047D86D /* OpenType */,
+				E34F3BD61F474AA100E8160D /* Sleep */,
+				E34A098D1F45EF1700886C50 /* Feelings */,
+				E3667C8E1F43392100363F04 /* Activity */,
+				E3F05CD51F3B5B0200B9171D /* Insights */,
+				E3F373031F3A0C73006ADD42 /* Onboarding */,
+				29EBD96C1F324F2F0010BE14 /* ModelController */,
+				29EBD9691F324F030010BE14 /* Models */,
+				294CA0BD1F2131FC00D5857A /* Diabetes.entitlements */,
+				294CA03F1F1FED6700D5857A /* AppDelegate.swift */,
+				29EBD9711F324F9E0010BE14 /* MapDetailViewController.swift */,
+				298824631F474A200083ED2F /* CalorieTableViewController.swift */,
+				29FC20B41F57490A00572F02 /* AllowedCharsTextField.swift */,
+				E3DCFD221FE024470007CD80 /* iCarousel.h */,
+				E3DCFD231FE024470007CD80 /* iCarousel.m */,
+				298824671F474D530083ED2F /* AddChoiceViewController.swift */,
+				29FC20B61F57491800572F02 /* TableViewController.swift */,
+				295804281F3268FF00623E4E /* FileViewController.swift */,
+				298824651F474A430083ED2F /* CameraViewController.swift */,
+				2988246D1F474DCC0083ED2F /* FoodItem.swift */,
+				298824691F474D900083ED2F /* LogDetailTableViewController.swift */,
+				2988246F1F474DD20083ED2F /* FoodStorageService.swift */,
+				E371D2281F9FC4850084DF07 /* SideMenuViewController.swift */,
+				E3C1BD8D1FE820F300189C12 /* FoodCell.swift */,
+				E3C1BD8E1FE820F300189C12 /* FoodModel.swift */,
+				E3C1BD8F1FE820F300189C12 /* NutritionSearchViewController.swift */,
+				E3C1BD901FE820F300189C12 /* referDBVC.swift */,
+				2988246B1F474D970083ED2F /* LogTableViewController.swift */,
+				2917A5A81F38C2D6004A5786 /* RestaurantTableViewController.swift */,
+				29EBD2F21F2263CF0067BC73 /* GlucoseViewController.swift */,
+				E39B82771FCC9A60000CC63F /* Main.storyboard */,
+				E3C1BD891FE3028500189C12 /* EditProfileViewController.swift */,
+				E3DCFD271FE025C60007CD80 /* CarouselTestViewController.swift */,
+				E39B827D1FD5AA3A000CC63F /* EmailViewController.swift */,
+				E39B827B1FCDC500000CC63F /* ProfileViewController.swift */,
+				294CA0411F1FED6700D5857A /* ViewController.swift */,
+				E3F373061F3A1AB4006ADD42 /* UserViewController.swift */,
+				29EBD2EE1F2137C20067BC73 /* FirstViewController.swift */,
+				29EBD2F01F2137FC0067BC73 /* SecondViewController.swift */,
+				296DBE801F28F56E00A61898 /* PopSleepViewController.swift */,
+				E371D22A1F9FC5A20084DF07 /* MarketplaceTableViewController.swift */,
+				E371D22C1F9FC5D60084DF07 /* CommunityTableViewController.swift */,
+				E3FEBE0C1F3E170C006DDBCD /* AlertsViewController.swift */,
+				E3F372FF1F3900C4006ADD42 /* NutritionDisplayViewController.swift */,
+				29EBD9641F3232540010BE14 /* NearMeViewController.swift */,
+				E3EDEA751F28F53F0097FAC7 /* NutritionViewController.swift */,
+				29FC20AE1F57397800572F02 /* TextFieldMaxLengths.swift */,
+				29FC20B01F57398700572F02 /* UIViewController+HideKeyboardStopEditing copy.swift */,
+				29FC20B21F5739AE00572F02 /* EnterGlucoseViewController.swift */,
+				294CA0461F1FED6700D5857A /* Assets.xcassets */,
+				294CA0481F1FED6700D5857A /* LaunchScreen.storyboard */,
+				294CA04B1F1FED6700D5857A /* Info.plist */,
+				E391650F20113C58009BC161 /* GoogleService-Info.plist */,
+				E3DCFD211FE024460007CD80 /* Diabetes-Bridging-Header.h */,
+			);
+			path = Diabetes;
+			sourceTree = "<group>";
+		};
+		294CA0531F1FED6700D5857A /* DiabetesTests */ = {
+			isa = PBXGroup;
+			children = (
+				294CA0541F1FED6700D5857A /* DiabetesTests.swift */,
+				294CA0561F1FED6700D5857A /* Info.plist */,
+			);
+			path = DiabetesTests;
+			sourceTree = "<group>";
+		};
+		294CA05E1F1FED6700D5857A /* DiabetesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				294CA05F1F1FED6700D5857A /* DiabetesUITests.swift */,
+				294CA0611F1FED6700D5857A /* Info.plist */,
+			);
+			path = DiabetesUITests;
+			sourceTree = "<group>";
+		};
+		294CA0BA1F2131FC00D5857A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3C1BD8B1FE30E2F00189C12 /* HealthKit.framework */,
+				E3DCFD251FE025030007CD80 /* QuartzCore.framework */,
+				E39B2D8A1F3C98A3002F2704 /* AlamofireRSSParser.framework */,
+				E39B2D881F3C989D002F2704 /* Alamofire.framework */,
+				E39B2D861F3C988C002F2704 /* Pods_Diabetes.framework */,
+				9872386025D62E15F4327612 /* Pods_Diabetes.framework */,
+				D95AEBC61D4917A970FA5310 /* Pods_DiabetesTests.framework */,
+				15188A38AD67DF61464CD460 /* Pods_DiabetesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29EBD9691F324F030010BE14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2917A5AA1F38C3EB004A5786 /* Restaurant.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		29EBD96C1F324F2F0010BE14 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				2917A5A61F38C29B004A5786 /* RestaurantController.swift */,
+			);
+			name = ModelController;
+			sourceTree = "<group>";
+		};
+		BBE0576732B123F2C2BED97F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				347A1EA3620FE22C3D53A4AE /* Pods-Diabetes.debug.xcconfig */,
+				92307AB6E5C034B494A83C45 /* Pods-Diabetes.release.xcconfig */,
+				7940CE572FDA8097EB368D4A /* Pods-DiabetesTests.debug.xcconfig */,
+				1BD683297D73CC3581A8BC6D /* Pods-DiabetesTests.release.xcconfig */,
+				047BF6D1C14E3AC995279683 /* Pods-DiabetesUITests.debug.xcconfig */,
+				43B031502FA83304673E9020 /* Pods-DiabetesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E34A098D1F45EF1700886C50 /* Feelings */ = {
+			isa = PBXGroup;
+			children = (
+				29EBD9621F30CF5B0010BE14 /* FeelingsViewController.swift */,
+				E34A098E1F45EF5C00886C50 /* Feelings.storyboard */,
+				E34A09901F45F26F00886C50 /* FeelingsLogViewController.swift */,
+			);
+			name = Feelings;
+			sourceTree = "<group>";
+		};
+		E34F3BD61F474AA100E8160D /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+				E3EDEA791F2900900097FAC7 /* SleepPageViewController.swift */,
+			);
+			name = Sleep;
+			sourceTree = "<group>";
+		};
+		E3667C8E1F43392100363F04 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				E304CC691F2BC325009C8A69 /* ActivityViewController.swift */,
+				E3667C911F4359E000363F04 /* ActivityListViewController.swift */,
+			);
+			name = Activity;
+			sourceTree = "<group>";
+		};
+		E3F05CD51F3B5B0200B9171D /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				E3F05CDA1F3B750400B9171D /* InsightsViewController.swift */,
+			);
+			name = Insights;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E3F373031F3A0C73006ADD42 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E3F373011F39F5AA006ADD42 /* Onboarding.storyboard */,
+				E3F373041F3A0CBA006ADD42 /* OnboardingViewController.swift */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		E3FF7A7D1F8E728D0047D86D /* Whitney */ = {
+			isa = PBXGroup;
+			children = (
+				E3FF7A651F8E727B0047D86D /* Whitney-Black-Adv.otf */,
+				E3FF7A661F8E727B0047D86D /* Whitney-BlackItal-Adv.otf */,
+				E3FF7A671F8E727B0047D86D /* Whitney-Bold-Adv.otf */,
+				E3FF7A681F8E727B0047D86D /* Whitney-BoldItal-Adv.otf */,
+				E3FF7A691F8E727B0047D86D /* Whitney-Book-Adv.otf */,
+				E3FF7A6A1F8E727B0047D86D /* Whitney-BookItal-Adv.otf */,
+				E3FF7A6B1F8E727B0047D86D /* Whitney-Light-Adv.otf */,
+				E3FF7A6C1F8E727B0047D86D /* Whitney-LightItal-Adv.otf */,
+				E3FF7A6D1F8E727B0047D86D /* Whitney-Medium-Adv.otf */,
+				E3FF7A6E1F8E727B0047D86D /* Whitney-MediumItal-Adv.otf */,
+				E3FF7A6F1F8E727B0047D86D /* Whitney-Semibld-Adv.otf */,
+				E3FF7A701F8E727B0047D86D /* Whitney-SemibldItal-Adv.otf */,
+			);
+			name = Whitney;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		294CA03B1F1FED6700D5857A /* Diabetes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 294CA0641F1FED6700D5857A /* Build configuration list for PBXNativeTarget "Diabetes" */;
+			buildPhases = (
+				3818D91021F1A6F89D3D277D /* [CP] Check Pods Manifest.lock */,
+				294CA0381F1FED6700D5857A /* Sources */,
+				294CA0391F1FED6700D5857A /* Frameworks */,
+				294CA03A1F1FED6700D5857A /* Resources */,
+				79B1CB90E18EACC5A084C863 /* [CP] Embed Pods Frameworks */,
+				A1E7DE4CB38581B2D5EF860C /* [CP] Copy Pods Resources */,
+				E33778EC20114E1E001116A3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diabetes;
+			productName = Diabetes;
+			productReference = 294CA03C1F1FED6700D5857A /* Diabetes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		294CA04F1F1FED6700D5857A /* DiabetesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 294CA0671F1FED6700D5857A /* Build configuration list for PBXNativeTarget "DiabetesTests" */;
+			buildPhases = (
+				3D1937E707D3702912EB7D97 /* [CP] Check Pods Manifest.lock */,
+				294CA04C1F1FED6700D5857A /* Sources */,
+				294CA04D1F1FED6700D5857A /* Frameworks */,
+				294CA04E1F1FED6700D5857A /* Resources */,
+				849988F6E3F06FB8EEE3A9A5 /* [CP] Embed Pods Frameworks */,
+				6E40A5ACB3A44EF7CFDFD257 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				294CA0521F1FED6700D5857A /* PBXTargetDependency */,
+			);
+			name = DiabetesTests;
+			productName = DiabetesTests;
+			productReference = 294CA0501F1FED6700D5857A /* DiabetesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		294CA05A1F1FED6700D5857A /* DiabetesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 294CA06A1F1FED6700D5857A /* Build configuration list for PBXNativeTarget "DiabetesUITests" */;
+			buildPhases = (
+				410A874F197651E10B5A6EBB /* [CP] Check Pods Manifest.lock */,
+				294CA0571F1FED6700D5857A /* Sources */,
+				294CA0581F1FED6700D5857A /* Frameworks */,
+				294CA0591F1FED6700D5857A /* Resources */,
+				1343A67912FC3D5CDCE8361D /* [CP] Embed Pods Frameworks */,
+				B76D909A847CE3F83E46A5AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				294CA05D1F1FED6700D5857A /* PBXTargetDependency */,
+			);
+			name = DiabetesUITests;
+			productName = DiabetesUITests;
+			productReference = 294CA05B1F1FED6700D5857A /* DiabetesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		294CA0341F1FED6700D5857A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Malhotra, Neil";
+				TargetAttributes = {
+					294CA03B1F1FED6700D5857A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XZ838ZALS3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					294CA04F1F1FED6700D5857A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 294CA03B1F1FED6700D5857A;
+					};
+					294CA05A1F1FED6700D5857A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 294CA03B1F1FED6700D5857A;
+					};
+				};
+			};
+			buildConfigurationList = 294CA0371F1FED6700D5857A /* Build configuration list for PBXProject "Diabetes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 294CA0331F1FED6700D5857A;
+			productRefGroup = 294CA03D1F1FED6700D5857A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				294CA03B1F1FED6700D5857A /* Diabetes */,
+				294CA04F1F1FED6700D5857A /* DiabetesTests */,
+				294CA05A1F1FED6700D5857A /* DiabetesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		294CA03A1F1FED6700D5857A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FF7A711F8E727B0047D86D /* Whitney-Black-Adv.otf in Resources */,
+				E3FF7A721F8E727B0047D86D /* Whitney-BlackItal-Adv.otf in Resources */,
+				E3FF7A731F8E727B0047D86D /* Whitney-Bold-Adv.otf in Resources */,
+				E3FF7A741F8E727B0047D86D /* Whitney-BoldItal-Adv.otf in Resources */,
+				E3FF7A751F8E727B0047D86D /* Whitney-Book-Adv.otf in Resources */,
+				E3FF7A761F8E727B0047D86D /* Whitney-BookItal-Adv.otf in Resources */,
+				E3FF7A771F8E727B0047D86D /* Whitney-Light-Adv.otf in Resources */,
+				E3FF7A781F8E727B0047D86D /* Whitney-LightItal-Adv.otf in Resources */,
+				E3FF7A791F8E727B0047D86D /* Whitney-Medium-Adv.otf in Resources */,
+				E3FF7A7A1F8E727B0047D86D /* Whitney-MediumItal-Adv.otf in Resources */,
+				E3FF7A7B1F8E727B0047D86D /* Whitney-Semibld-Adv.otf in Resources */,
+				E391651020113C58009BC161 /* GoogleService-Info.plist in Resources */,
+				E3FF7A7C1F8E727B0047D86D /* Whitney-SemibldItal-Adv.otf in Resources */,
+				294CA04A1F1FED6700D5857A /* LaunchScreen.storyboard in Resources */,
+				294CA0471F1FED6700D5857A /* Assets.xcassets in Resources */,
+				E3FF7A641F8E6D180047D86D /* OpenType in Resources */,
+				E39B82781FCC9A60000CC63F /* Main.storyboard in Resources */,
+				E34A098F1F45EF5C00886C50 /* Feelings.storyboard in Resources */,
+				E3F373021F39F5AA006ADD42 /* Onboarding.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294CA04E1F1FED6700D5857A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E391651120113C58009BC161 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294CA0591F1FED6700D5857A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E391651220113C58009BC161 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1343A67912FC3D5CDCE8361D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiabetesUITests/Pods-DiabetesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3818D91021F1A6F89D3D277D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Diabetes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3D1937E707D3702912EB7D97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiabetesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		410A874F197651E10B5A6EBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiabetesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E40A5ACB3A44EF7CFDFD257 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiabetesTests/Pods-DiabetesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79B1CB90E18EACC5A084C863 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Diabetes/Pods-Diabetes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireRSSParser/AlamofireRSSParser.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Clarifai/Clarifai.framework",
+				"${BUILT_PRODUCTS_DIR}/FileBrowser/FileBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/ParseUI/ParseUI.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+				"${BUILT_PRODUCTS_DIR}/iCarousel/iCarousel.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireRSSParser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Clarifai.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FileBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParseUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iCarousel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Diabetes/Pods-Diabetes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		849988F6E3F06FB8EEE3A9A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiabetesTests/Pods-DiabetesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1E7DE4CB38581B2D5EF860C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Diabetes/Pods-Diabetes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B76D909A847CE3F83E46A5AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiabetesUITests/Pods-DiabetesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E33778EC20114E1E001116A3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" d71ec0a8cec055ff359a0b48b52b0c6bac9ccfa8 559c02a241559c2690ae1198a4a62d9e4b07e4fb29d9fb2d5885790b6b404043";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		294CA0381F1FED6700D5857A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FC20AF1F57397800572F02 /* TextFieldMaxLengths.swift in Sources */,
+				E3C1BD911FE820F300189C12 /* FoodCell.swift in Sources */,
+				29EBD2F11F2137FC0067BC73 /* SecondViewController.swift in Sources */,
+				29EBD2EF1F2137C20067BC73 /* FirstViewController.swift in Sources */,
+				2917A5A71F38C29B004A5786 /* RestaurantController.swift in Sources */,
+				295804291F3268FF00623E4E /* FileViewController.swift in Sources */,
+				E3667C921F4359E000363F04 /* ActivityListViewController.swift in Sources */,
+				298824681F474D530083ED2F /* AddChoiceViewController.swift in Sources */,
+				294CA0421F1FED6700D5857A /* ViewController.swift in Sources */,
+				29FC20B31F5739AE00572F02 /* EnterGlucoseViewController.swift in Sources */,
+				E3EDEA761F28F53F0097FAC7 /* NutritionViewController.swift in Sources */,
+				E371D22B1F9FC5A20084DF07 /* MarketplaceTableViewController.swift in Sources */,
+				E371D22D1F9FC5D70084DF07 /* CommunityTableViewController.swift in Sources */,
+				E3C1BD931FE820F300189C12 /* NutritionSearchViewController.swift in Sources */,
+				29EBD9721F324F9E0010BE14 /* MapDetailViewController.swift in Sources */,
+				29FC20B11F57398700572F02 /* UIViewController+HideKeyboardStopEditing copy.swift in Sources */,
+				E3C1BD921FE820F300189C12 /* FoodModel.swift in Sources */,
+				29FC20B51F57490A00572F02 /* AllowedCharsTextField.swift in Sources */,
+				E3F05CDB1F3B750400B9171D /* InsightsViewController.swift in Sources */,
+				E3DCFD281FE025C60007CD80 /* CarouselTestViewController.swift in Sources */,
+				E3F373051F3A0CBA006ADD42 /* OnboardingViewController.swift in Sources */,
+				298824641F474A200083ED2F /* CalorieTableViewController.swift in Sources */,
+				E371D2291F9FC4850084DF07 /* SideMenuViewController.swift in Sources */,
+				E39B827E1FD5AA3A000CC63F /* EmailViewController.swift in Sources */,
+				29EBD9651F3232540010BE14 /* NearMeViewController.swift in Sources */,
+				2917A5AB1F38C3EB004A5786 /* Restaurant.swift in Sources */,
+				E3F373001F3900C4006ADD42 /* NutritionDisplayViewController.swift in Sources */,
+				E3C1BD941FE820F300189C12 /* referDBVC.swift in Sources */,
+				298824701F474DD20083ED2F /* FoodStorageService.swift in Sources */,
+				E34A09911F45F26F00886C50 /* FeelingsLogViewController.swift in Sources */,
+				2917A5A91F38C2D6004A5786 /* RestaurantTableViewController.swift in Sources */,
+				E3C1BD8A1FE3028500189C12 /* EditProfileViewController.swift in Sources */,
+				2988246A1F474D900083ED2F /* LogDetailTableViewController.swift in Sources */,
+				298824661F474A430083ED2F /* CameraViewController.swift in Sources */,
+				E304CC6A1F2BC326009C8A69 /* ActivityViewController.swift in Sources */,
+				29EBD2F31F2263CF0067BC73 /* GlucoseViewController.swift in Sources */,
+				296DBE811F28F56E00A61898 /* PopSleepViewController.swift in Sources */,
+				29FC20B71F57491800572F02 /* TableViewController.swift in Sources */,
+				E3FEBE0D1F3E170C006DDBCD /* AlertsViewController.swift in Sources */,
+				E3EDEA7A1F2900900097FAC7 /* SleepPageViewController.swift in Sources */,
+				2988246C1F474D970083ED2F /* LogTableViewController.swift in Sources */,
+				E3DCFD241FE024470007CD80 /* iCarousel.m in Sources */,
+				29EBD9631F30CF5C0010BE14 /* FeelingsViewController.swift in Sources */,
+				294CA0401F1FED6700D5857A /* AppDelegate.swift in Sources */,
+				E39B827C1FCDC500000CC63F /* ProfileViewController.swift in Sources */,
+				E3F373071F3A1AB4006ADD42 /* UserViewController.swift in Sources */,
+				2988246E1F474DCC0083ED2F /* FoodItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294CA04C1F1FED6700D5857A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294CA0551F1FED6700D5857A /* DiabetesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294CA0571F1FED6700D5857A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294CA0601F1FED6700D5857A /* DiabetesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		294CA0521F1FED6700D5857A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 294CA03B1F1FED6700D5857A /* Diabetes */;
+			targetProxy = 294CA0511F1FED6700D5857A /* PBXContainerItemProxy */;
+		};
+		294CA05D1F1FED6700D5857A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 294CA03B1F1FED6700D5857A /* Diabetes */;
+			targetProxy = 294CA05C1F1FED6700D5857A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		294CA0481F1FED6700D5857A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				294CA0491F1FED6700D5857A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		294CA0621F1FED6700D5857A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		294CA0631F1FED6700D5857A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		294CA0651F1FED6700D5857A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 347A1EA3620FE22C3D53A4AE /* Pods-Diabetes.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Diabetes/Diabetes.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZ838ZALS3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AlamofireRSSParser",
+				);
+				INFOPLIST_FILE = Diabetes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiabetesBetaPOC.InnovationLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Diabetes/Diabetes-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		294CA0661F1FED6700D5857A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92307AB6E5C034B494A83C45 /* Pods-Diabetes.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Diabetes/Diabetes.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZ838ZALS3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AlamofireRSSParser",
+				);
+				INFOPLIST_FILE = Diabetes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DiabetesBetaPOC.InnovationLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Diabetes/Diabetes-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		294CA0681F1FED6700D5857A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7940CE572FDA8097EB368D4A /* Pods-DiabetesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiabetesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Neilm.DiabetesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diabetes.app/Diabetes";
+			};
+			name = Debug;
+		};
+		294CA0691F1FED6700D5857A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD683297D73CC3581A8BC6D /* Pods-DiabetesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiabetesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Neilm.DiabetesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diabetes.app/Diabetes";
+			};
+			name = Release;
+		};
+		294CA06B1F1FED6700D5857A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047BF6D1C14E3AC995279683 /* Pods-DiabetesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DiabetesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Neilm.DiabetesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Diabetes;
+			};
+			name = Debug;
+		};
+		294CA06C1F1FED6700D5857A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B031502FA83304673E9020 /* Pods-DiabetesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DiabetesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Neilm.DiabetesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Diabetes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		294CA0371F1FED6700D5857A /* Build configuration list for PBXProject "Diabetes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294CA0621F1FED6700D5857A /* Debug */,
+				294CA0631F1FED6700D5857A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		294CA0641F1FED6700D5857A /* Build configuration list for PBXNativeTarget "Diabetes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294CA0651F1FED6700D5857A /* Debug */,
+				294CA0661F1FED6700D5857A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		294CA0671F1FED6700D5857A /* Build configuration list for PBXNativeTarget "DiabetesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294CA0681F1FED6700D5857A /* Debug */,
+				294CA0691F1FED6700D5857A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		294CA06A1F1FED6700D5857A /* Build configuration list for PBXNativeTarget "DiabetesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294CA06B1F1FED6700D5857A /* Debug */,
+				294CA06C1F1FED6700D5857A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 294CA0341F1FED6700D5857A /* Project object */;
+}

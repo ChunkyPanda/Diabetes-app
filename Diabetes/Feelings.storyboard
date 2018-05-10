@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1036" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="VOV-He-0mc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Feeling Page-->
+        <scene sceneID="pA4-S0-ieq">
+            <objects>
+                <viewController title="Feeling Page" id="VOV-He-0mc" customClass="FeelingsViewController" customModule="Diabetes" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BSN-ek-Lvg"/>
+                        <viewControllerLayoutGuide type="bottom" id="O2V-Kc-HxB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HBA-iF-ked">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QHU-7h-iBh">
+                                <rect key="frame" x="0.0" y="58" width="375" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="VOV-He-0mc" id="O6T-hS-FgH"/>
+                                    <outlet property="delegate" destination="VOV-He-0mc" id="m22-4I-zNp"/>
+                                </connections>
+                            </pickerView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="edF-lC-WD2" customClass="BarChartView" customModule="Charts">
+                                <rect key="frame" x="0.0" y="415" width="375" height="252"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daily Feelings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mjN-85-RMk">
+                                <rect key="frame" x="68" y="358" width="239" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="239" id="IYO-po-xub"/>
+                                    <constraint firstAttribute="height" constant="20.5" id="aIC-BO-D5t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XY6-j9-bCm">
+                                <rect key="frame" x="143" y="318" width="89" height="30"/>
+                                <state key="normal" title="Add Feelings"/>
+                                <connections>
+                                    <action selector="addFeelingsButtonPressed:" destination="VOV-He-0mc" eventType="touchUpInside" id="6D0-zA-6pu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XY6-j9-bCm" firstAttribute="leading" secondItem="HBA-iF-ked" secondAttribute="leadingMargin" constant="127" id="2El-fy-LCk"/>
+                            <constraint firstItem="O2V-Kc-HxB" firstAttribute="top" secondItem="edF-lC-WD2" secondAttribute="bottom" id="4O7-Dq-QUV"/>
+                            <constraint firstItem="mjN-85-RMk" firstAttribute="top" secondItem="XY6-j9-bCm" secondAttribute="bottom" constant="10" id="5pK-p7-TSv"/>
+                            <constraint firstAttribute="trailing" secondItem="edF-lC-WD2" secondAttribute="trailing" id="6xN-V1-eUH"/>
+                            <constraint firstItem="QHU-7h-iBh" firstAttribute="leading" secondItem="HBA-iF-ked" secondAttribute="leading" id="72O-xC-8PV"/>
+                            <constraint firstItem="edF-lC-WD2" firstAttribute="leading" secondItem="HBA-iF-ked" secondAttribute="leading" id="C9Z-Iu-0Oq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mjN-85-RMk" secondAttribute="trailing" constant="52" id="Dxg-p5-xvE"/>
+                            <constraint firstItem="QHU-7h-iBh" firstAttribute="top" secondItem="BSN-ek-Lvg" secondAttribute="bottom" constant="38" id="RMD-43-eqo"/>
+                            <constraint firstItem="edF-lC-WD2" firstAttribute="top" secondItem="mjN-85-RMk" secondAttribute="bottom" constant="36.5" id="VJo-qV-HlP"/>
+                            <constraint firstItem="XY6-j9-bCm" firstAttribute="top" secondItem="QHU-7h-iBh" secondAttribute="bottom" constant="44" id="Zui-DE-VNL"/>
+                            <constraint firstAttribute="trailing" secondItem="QHU-7h-iBh" secondAttribute="trailing" id="p8V-Mc-Uor"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XY6-j9-bCm" secondAttribute="trailing" constant="127" id="sUm-B8-8sm"/>
+                            <constraint firstItem="mjN-85-RMk" firstAttribute="leading" secondItem="HBA-iF-ked" secondAttribute="leadingMargin" constant="52" id="wGT-Z4-ObU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="FeelingsBarChart" destination="edF-lC-WD2" id="auY-ud-PD5"/>
+                        <outlet property="FeelingsPicker" destination="QHU-7h-iBh" id="jfE-6G-u69"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bw0-nW-eIs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5284" y="235.23238380809596"/>
+        </scene>
+        <!--DashboardTabBar-->
+        <scene sceneID="Vk1-sc-glE">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="DashboardTabBar" id="FVT-tV-hQm" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nz6-tW-t1t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6436" y="-235"/>
+        </scene>
+        <!--Feelings Log View Controller-->
+        <scene sceneID="bAy-Jz-KSb">
+            <objects>
+                <viewController id="fTb-0P-hyV" customClass="FeelingsLogViewController" customModule="Diabetes" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K5I-Ek-svd"/>
+                        <viewControllerLayoutGuide type="bottom" id="FZA-sD-5kj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nPz-gB-xiR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Add notes ..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="arW-HE-53N">
+                                <rect key="frame" x="16" y="367" width="343" height="159"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t62-cb-Kt0">
+                                <rect key="frame" x="16" y="571" width="343" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="SAVE">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="VOV-He-0mc" kind="show" id="K6w-6y-Gkv"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="99A-TR-XuN">
+                                <rect key="frame" x="16" y="113" width="343" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="fTb-0P-hyV" id="A5G-Oz-DdQ"/>
+                                    <outlet property="delegate" destination="fTb-0P-hyV" id="y5x-1F-RdG"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9GF-2Y-ogu">
+                                <rect key="frame" x="60" y="58" width="255" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9GF-2Y-ogu" firstAttribute="top" secondItem="K5I-Ek-svd" secondAttribute="bottom" constant="38" id="2kL-WK-9w6"/>
+                            <constraint firstItem="99A-TR-XuN" firstAttribute="leading" secondItem="nPz-gB-xiR" secondAttribute="leadingMargin" id="2ln-PO-Ruq"/>
+                            <constraint firstItem="t62-cb-Kt0" firstAttribute="top" secondItem="arW-HE-53N" secondAttribute="bottom" constant="45" id="5lJ-XU-cfp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9GF-2Y-ogu" secondAttribute="trailing" constant="44" id="6zk-Zs-kwW"/>
+                            <constraint firstItem="arW-HE-53N" firstAttribute="trailing" secondItem="nPz-gB-xiR" secondAttribute="trailingMargin" id="B0H-Yv-u0Z"/>
+                            <constraint firstItem="arW-HE-53N" firstAttribute="leading" secondItem="nPz-gB-xiR" secondAttribute="leadingMargin" id="Dph-l2-AbG"/>
+                            <constraint firstItem="t62-cb-Kt0" firstAttribute="trailing" secondItem="nPz-gB-xiR" secondAttribute="trailingMargin" id="RTo-MY-jRa"/>
+                            <constraint firstItem="99A-TR-XuN" firstAttribute="top" secondItem="9GF-2Y-ogu" secondAttribute="bottom" constant="19" id="VE8-up-ajM"/>
+                            <constraint firstItem="arW-HE-53N" firstAttribute="top" secondItem="99A-TR-XuN" secondAttribute="bottom" constant="38" id="cET-Gv-cFo"/>
+                            <constraint firstItem="99A-TR-XuN" firstAttribute="trailing" secondItem="nPz-gB-xiR" secondAttribute="trailingMargin" id="r4J-RT-Lfp"/>
+                            <constraint firstItem="9GF-2Y-ogu" firstAttribute="leading" secondItem="nPz-gB-xiR" secondAttribute="leadingMargin" constant="44" id="sr1-yw-Zjg"/>
+                            <constraint firstItem="t62-cb-Kt0" firstAttribute="leading" secondItem="nPz-gB-xiR" secondAttribute="leadingMargin" id="wDn-Ug-XEt"/>
+                            <constraint firstItem="FZA-sD-5kj" firstAttribute="top" secondItem="t62-cb-Kt0" secondAttribute="bottom" constant="66" id="z72-be-sZJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="daySpentFeelingsDisplay" destination="9GF-2Y-ogu" id="vv7-1h-b4h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jdA-Ud-Pnq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6248.8000000000002" y="700.29985007496259"/>
+        </scene>
+    </scenes>
+</document>
